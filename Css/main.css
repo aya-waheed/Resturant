@@ -1,0 +1,180 @@
+
+*{
+
+    margin: 0;
+}
+
+ .clr{
+
+    clear: both;
+ }
+
+#home {
+
+    background-image: url('../images/img.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+
+}
+#home  .captions{
+
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+
+
+}
+
+#home .captions p{
+
+    padding: 10px 0;
+
+
+}
+
+#home .captions .btn1 , #home .captions .btn2{
+
+     padding: 10px 16px;
+     border: none;
+
+}
+
+#home .captions .btn1{
+
+
+    background-color: rgb(215, 215, 148);
+
+
+}
+
+#home .captions .btn2{
+
+
+    background-color: whitesmoke;
+
+
+}
+
+
+#about .about-img{
+
+    width: 40%;
+    float: left;
+}
+
+#about .about-img img{
+
+    width: 100%;
+}
+
+#about .about-info{
+    width: 60%;
+    float: left;
+    text-align: center;
+    padding: 80px 0px;
+
+
+}
+
+#about .about-info h2{
+
+    font-size: 50px;
+    padding: 20px 20px;
+
+
+}
+
+#about .about-info p{
+
+    line-height: 32px;
+    padding: 20px ;
+}
+
+#about .about-info button{
+
+    padding: 14px 20px;
+    border: 3px solid black;
+    background-color: transparent;
+}
+
+.light-box{
+background-image: url('../images/overlay-img.jpg'); 
+background-attachment: fixed;  
+ height: 500px;
+
+
+}
+
+#meals{
+
+padding: 50px 0px;
+}
+
+
+#meals .meal{
+
+    
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#meals .meal img{
+
+    border-radius: 50%;
+}
+
+#meals .meal .brdr{
+
+    height: 3px;
+    width: 100px;
+    background-color: black;
+    margin: 15px auto;
+
+}
+
+#meals .meal p{
+
+    padding-inline: 25px;
+
+
+}
+
+.navbar{
+
+    
+    background-color: rgba(0, 0, 0, 0.258);
+
+
+} 
+
+.navbar img{
+
+    width: 100px;
+    float: left;
+}
+
+.navbar ul{
+
+    float: right;
+    list-style: none;
+}
+
+.navbar ul li{
+
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.navbar ul a {
+
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+
+
